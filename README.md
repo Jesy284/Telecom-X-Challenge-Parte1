@@ -78,7 +78,7 @@ Telecom-X-Challenge/
 ## 📊 Visualizaciones del Análisis
 
 ### Gráfica 1: Distribución General de Churn
-![Distribución de Churn](imágenes/Gráfica%201%20Distribución%20de%20Churn%20(Pastel).png)
+![Distribución de Churn](https://github.com/Jesy284/Telecom-X-Challenge-Parte1/blob/main/Gr%C3%A1fica%201%20Distribuci%C3%B3n%20de%20Churn%20(Pastel).png?raw=true)
 
 **¿Qué muestra?**  
 Esta gráfica circular (pastel) muestra la proporción de clientes que cancelaron vs. los que permanecieron activos.
@@ -93,7 +93,7 @@ Más de 1 de cada 4 clientes cancela el servicio, lo que representa un problema 
 ---
 
 ### Gráfica 2: Cargo Mensual vs Cancelación
-![Cargo Mensual](imágenes/Gráfica%202%20Cargo%20mensual%20vs%20Cancelación.png)
+![Cargo Mensual](https://github.com/Jesy284/Telecom-X-Challenge-Parte1/blob/main/Gr%C3%A1fica%202%20Cargo%20mensual%20vs%20Cancelaci%C3%B3n.png?raw=true)
 
 **¿Qué muestra?**  
 Esta gráfica de cajas (boxplot) compara la distribución de los cargos mensuales entre clientes activos y clientes que cancelaron.
@@ -110,7 +110,7 @@ Los cargos mensuales elevados correlacionan con mayor probabilidad de cancelaci�
 ---
 
 ### Gráfica 3: Antigüedad vs Cancelación
-![Antigüedad](imágenes/Gráfica%203%20Antigüedad%20vs%20Cancelación.png)
+![Antigüedad](https://github.com/Jesy284/Telecom-X-Challenge-Parte1/blob/main/Gr%C3%A1fica%203%20Antig%C3%BCedad%20vs%20Cancelaci%C3%B3n.png?raw=true)
 
 **¿Qué muestra?**  
 Esta gráfica de cajas compara la antigüedad (meses como cliente) entre quienes cancelaron y quienes permanecen activos.
@@ -127,7 +127,7 @@ El **primer año** es crítico para la retención. Los clientes nuevos son mucho
 ---
 
 ### Gráfica 4: Tipo de Contrato vs Cancelación
-![Tipo de Contrato](imágenes/Gráfica%204%20Tipo%20de%20contrato%20vs%20Cancelación.png)
+![Tipo de Contrato](https://github.com/Jesy284/Telecom-X-Challenge-Parte1/blob/main/Gr%C3%A1fica%204%20Tipo%20de%20contrato%20vs%20Cancelaci%C3%B3n.png?raw=true)
 
 **¿Qué muestra?**  
 Esta gráfica de barras muestra la tasa de cancelación porcentual según el tipo de contrato del cliente.
