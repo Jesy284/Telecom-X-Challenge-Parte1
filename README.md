@@ -133,9 +133,9 @@ El **primer año** es crítico para la retención. Los clientes nuevos son mucho
 Esta gráfica de barras muestra la tasa de cancelación porcentual según el tipo de contrato del cliente.
 
 **Interpretación:**
-- **Month-to-month (Mes a mes)**: **42.7%** de cancelación 🔴
-- **One year (Un año)**: **11.3%** de cancelación 🟡
-- **Two year (Dos años)**: **2.8%** de cancelación 🟢
+- **Month-to-month (Mes a mes)**: **42.7%** de cancelación 
+- **One year (Un año)**: **11.3%** de cancelación 
+- **Two year (Dos años)**: **2.8%** de cancelación 
 
 **Insight clave:**  
 El **tipo de contrato es el predictor MÁS FUERTE** de churn. Los clientes con contratos mensuales tienen **15 veces más probabilidad** de cancelar que aquellos con contratos de 2 años. La flexibilidad contractual incrementa sustancialmente el riesgo de fuga.
