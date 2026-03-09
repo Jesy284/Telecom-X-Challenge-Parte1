@@ -46,7 +46,7 @@ Telecom-X-Challenge/
 | Antigüedad promedio (churn) | 17.98 meses | Clientes nuevos son más vulnerables |
 | Cargo mensual promedio (churn) | $74.44 | Precio percibido como barrera |
 
-![Distribución de Churn por Tipo de Contrato]
+[Distribución de Churn por Tipo de Contrato]
  Los clientes con contrato "Mes a mes" representan la mayor proporción de cancelaciones*
 
 
