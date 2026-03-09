@@ -75,6 +75,75 @@ Telecom-X-Challenge/
 
 5.  El 26.6% de los clientes cancelaron el servicio*
 
+## 📊 Visualizaciones del Análisis
+
+### Gráfica 1: Distribución General de Churn
+![Distribución de Churn](imágenes/Gráfica%201%20Distribución%20de%20Churn%20(Pastel).png)
+
+**¿Qué muestra?**  
+Esta gráfica circular (pastel) muestra la proporción de clientes que cancelaron vs. los que permanecieron activos.
+
+**Interpretación:**
+- **73.4%** de los clientes están **Activos** (color verde)
+- **26.6%** de los clientes **Cancelaron** el servicio (color rojo)
+
+**Insight clave:**  
+Más de 1 de cada 4 clientes cancela el servicio, lo que representa un problema significativo de retención para Telecom-X.
+
+---
+
+### Gráfica 2: Cargo Mensual vs Cancelación
+![Cargo Mensual](imágenes/Gráfica%202%20Cargo%20mensual%20vs%20Cancelación.png)
+
+**¿Qué muestra?**  
+Esta gráfica de cajas (boxplot) compara la distribución de los cargos mensuales entre clientes activos y clientes que cancelaron.
+
+**Interpretación:**
+- Los clientes que **cancelaron** tienden a tener cargos mensuales más altos
+- La mediana de cancelados está alrededor de **$80/mes**
+- Los clientes **activos** tienen una mediana más baja, alrededor de **$60/mes**
+- Existe mayor dispersión en el grupo que canceló
+
+**Insight clave:**  
+Los cargos mensuales elevados correlacionan con mayor probabilidad de cancelación. Los clientes perciben que el precio no se justifica con el valor recibido.
+
+---
+
+### Gráfica 3: Antigüedad vs Cancelación
+![Antigüedad](imágenes/Gráfica%203%20Antigüedad%20vs%20Cancelación.png)
+
+**¿Qué muestra?**  
+Esta gráfica de cajas compara la antigüedad (meses como cliente) entre quienes cancelaron y quienes permanecen activos.
+
+**Interpretación:**
+- Los clientes que **cancelaron** tienen **menor antigüedad** (mediana ~10 meses)
+- Los clientes **activos** tienen mayor antigüedad (mediana ~38 meses)
+- Hay clientes que cancelan desde el mes 1 (outliers en el mínimo)
+- Los outliers en el máximo muestran clientes antiguos que también cancelaron (~70 meses)
+
+**Insight clave:**  
+El **primer año** es crítico para la retención. Los clientes nuevos son mucho más vulnerables a la cancelación que los clientes leales.
+
+---
+
+### Gráfica 4: Tipo de Contrato vs Cancelación
+![Tipo de Contrato](imágenes/Gráfica%204%20Tipo%20de%20contrato%20vs%20Cancelación.png)
+
+**¿Qué muestra?**  
+Esta gráfica de barras muestra la tasa de cancelación porcentual según el tipo de contrato del cliente.
+
+**Interpretación:**
+- **Month-to-month (Mes a mes)**: **42.7%** de cancelación 🔴
+- **One year (Un año)**: **11.3%** de cancelación 🟡
+- **Two year (Dos años)**: **2.8%** de cancelación 🟢
+
+**Insight clave:**  
+El **tipo de contrato es el predictor MÁS FUERTE** de churn. Los clientes con contratos mensuales tienen **15 veces más probabilidad** de cancelar que aquellos con contratos de 2 años. La flexibilidad contractual incrementa sustancialmente el riesgo de fuga.
+
+---
+
+
+
 
 ## 💡 Recomendaciones Estratégicas
 
