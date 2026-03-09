@@ -50,6 +50,54 @@ Telecom-X-Challenge/
  Los clientes con contrato "Mes a mes" representan la mayor proporción de cancelaciones*
 
 
+## 🔍 Conclusiones del Análisis
+
+### Hallazgos Principales
+
+1. **Tasa de Churn del 26.6%**
+   - Más de 1 de cada 4 clientes cancela el servicio
+   - Esto representa un problema significativo para la empresa
+
+2. **Tipo de Contrato - Factor MÁS CRÍTICO**
+   - Contratos "Month-to-month": 42.7% de cancelación
+   - Contratos "One year": 11.3% de cancelación  
+   - Contratos "Two year": 2.8% de cancelación
+   - **Los clientes mensuales tienen 15x más probabilidad de cancelar**
+
+3. **Antigüedad del Cliente**
+   - Los clientes que cancelaron tienen menor antigüedad (mediana ~10 meses)
+   - Los clientes leales (>38 meses) tienden a permanecer
+   - **El primer año es crítico para la retención**
+
+4. **Cargo Mensual**
+   - Los clientes que cancelaron tienen diferentes patrones de cargo
+   - Se requiere análisis más profundo para identificar el punto óptimo de precio
+
+## 💡 Recomendaciones Estratégicas
+
+### Prioridad 1: Convertir contratos mensuales a anuales
+- Ofrecer descuento del 15% por contrato anual
+- Beneficio: Mes gratis en contrato de 2 años
+- Impacto potencial: Reducir churn de 42.7% a ~11%
+
+### Prioridad 2: Programa de retención para clientes nuevos
+- Contacto proactivo en meses 1, 3, 6 y 9
+- Encuestas de satisfacción
+- Ofertas de fidelización temprana
+
+### Prioridad 3: Revisar estructura de precios
+- Analizar si los cargos mensuales altos justifican el valor percibido
+- Considerar planes intermedios
+
+## 📊 Métricas Clave
+
+| Métrica | Valor |
+|---------|-------|
+| Tasa global de churn | 26.6% |
+| Churn en contratos mensuales | 42.7% |
+| Churn en contratos anuales | 11.3% |
+| Churn en contratos 2 años | 2.8% |
+
 ## 💡 Recomendaciones de Negocio
 
 ### 🎯 Priorizar retención en clientes nuevos (<12 meses)
@@ -79,3 +127,24 @@ Telecom-X-Challenge/
 > **Repositorio**: https://github.com/Jesy284/Telecom-X-Challenge-Parte1
 
 *Análisis realizado con fines educativos como parte del Challenge Telecom X*
+
+## 🚀 Cómo Ejecutar el Proyecto
+
+### Opción 1: Google Colab (Recomendado)
+1. Abre [Google Colab](https://colab.research.google.com)
+2. Ve a **Archivo → Abrir notebook → GitHub**
+3. Busca: `Jesy284/Telecom-X-Challenge-Parte1`
+4. Selecciona `Telecom_X_Challenge_Parte1.ipynb`
+5. Ejecuta celda por celda con `Shift + Enter`
+
+### Opción 2: Jupyter Notebook Local
+```bash
+# Clonar el repositorio
+git clone https://github.com/Jesy284/Telecom-X-Challenge-Parte1.git
+cd Telecom-X-Challenge-Parte1
+
+# Instalar dependencias
+pip install pandas matplotlib seaborn requests
+
+# Abrir notebook
+jupyter notebook Telecom_X_Challenge_Parte1.ipynb
