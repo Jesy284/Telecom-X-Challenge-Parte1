@@ -73,6 +73,13 @@ Telecom-X-Challenge/
    - Los clientes que cancelaron tienen diferentes patrones de cargo
    - Se requiere análisis más profundo para identificar el punto óptimo de precio
 
+5. 
+```markdown
+![Distribución de Churn](images/Gráfica%201%20Distribución%20de%20Churn%20(Pastel).png)
+
+*Figura 1: El 26.6% de los clientes cancelaron el servicio*
+
+
 ## 💡 Recomendaciones Estratégicas
 
 ### Prioridad 1: Convertir contratos mensuales a anuales
